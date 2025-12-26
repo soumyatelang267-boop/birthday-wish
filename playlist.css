@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg,#fff3f7,#ffeef4);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #ff4d88;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.player {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    margin-bottom: 20px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+.nav {
+    border: none;
+    background: white;
+    font-size: 28px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.continue-btn {
+    margin-top: 25px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #ff85b3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 12px 25px rgba(255,133,179,.4);
+}

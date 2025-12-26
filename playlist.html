@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Some of TV Girl 🎶</title>
+<link rel="stylesheet" href="playlist.css">
+</head>
+<body>
+
+<h2 class="title">Some of TV Girl 🎵</h2>
+<p class="subtitle">idk what to add soo i added this 😭✨</p>
+
+<!-- Audio Player Box -->
+<div class="player" id="player">
+    <p id="songName">Tappppp on songsss 💖</p>
+    <audio id="audio"></audio>
+</div>
+
+<!-- Slider -->
+<div class="slider">
+    <button class="nav left" onclick="prev()">‹</button>
+
+    <div class="card">
+        <img src="song1.png" onclick="playSong('song1.mp3','The Blonde')">
+        <h4>The Blonde</h4>
+        <p>yourrr favoriteee ✨</p>
+    </div>
+
+    <div class="card hidden">
+        <img src="song2.png" onclick="playSong('song2.mp3','Birds Dont Sing')">
+        <h4>Birds Dont Sing</h4>
+        <p>💕</p>
+    </div>
+
+    <div class="card hidden">
+        <img src="song3.png" onclick="playSong('song3.mp3','Lovers Rock')">
+        <h4>Lovers Rock</h4>
+        <p>💖</p>
+    </div>
+
+    <button class="nav right" onclick="next()">›</button>
+</div>
+
+<button class="continue-btn" onclick="goNext()">Continue to Birthday Surprises ✨</button>
+
+<script src="playlist.js"></script>
+</body>
+</html>
